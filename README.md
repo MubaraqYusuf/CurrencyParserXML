@@ -79,7 +79,7 @@ app/
 ### Steps
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/CurrencyApp.git
+   git clone https://github.com/MubaraqYusuf/CurrencyApp.git
    ```
 2. Open the project in **Android Studio**.
 3. Run the app on an emulator or device.
