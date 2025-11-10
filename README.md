@@ -29,25 +29,28 @@ The project demonstrates **asynchronous processing (AsyncTask)**, **JSON parsing
 ```
 app/
 ├── java/com/example/currencyapp/
-│   ├── MainActivity.java        # Main UI and logic
-│   ├── DataLoader.java          # AsyncTask for background API calls
-│   ├── Parser.java              # JSON parser for rates
-│   ├── CurrencyAdapter.java     # RecyclerView adapter
+│   ├── MainActivity.java       
+│   ├── DataLoader.java          
+│   ├── Parser.java             
+│   ├── CurrencyAdapter.java     
 │
 ├── res/
 │   ├── layout/
-│   │   ├── activity_main.xml    # Main UI layout
-│   │   ├── item_currency.xml    # Currency row item layout
+│   │   ├── activity_main.xml    
+│   │   ├── item_currency.xml   
 │   │
 │   ├── drawable/
-│   │   ├── bg_gradient.xml      # Background gradient
-│   │   ├── bg_card_rounded.xml  # Rounded white background for cards
+│   │   ├── bg_gradient.xml   
+│   │   ├── bg_card_rounded.xml  
+│   │   ├── ic_currency_app.xml
 │   │
 │   ├── xml/
 │   │   ├── network_security_config.xml
-│   │
+│   │   ├── backup_rules.xml
+|   |   ├── data_extraction_rules.xml
+|   |
 │   ├── values/
-│   │   ├── colors.xml
+│   │   ├── ic_launcher_background.xml
 │   │   ├── strings.xml
 │   │   ├── themes.xml
 │
@@ -104,8 +107,7 @@ Example Response:
 ```
 
 ## 👨‍💻 Author
-**Your Name**  
-📧 your.email@example.com  
+**Mubaraq Yusuf**    
 📍 MADT Lab #5 – Async Processing
 
 ## 🏁 License
